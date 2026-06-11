@@ -14,10 +14,44 @@
 }
 .hero-section{
   display: flex;
-  flex-direction: column;
-  align-items: flex-start
-  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
   background-color: #dfebf4;
   
 
+}
+.client-section{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  
+}
+.client-images{
+  display: flex;
+  flex-direction: row;
+}
+.manage-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.manager{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px;
+
+}
+.manager-a{
+  background-color: #f4f5f7;
+ object-fit: cover;
+ border-radius: 20px;
+ padding: 100px;
 }
