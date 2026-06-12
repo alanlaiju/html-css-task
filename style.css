@@ -55,3 +55,37 @@
  border-radius: 20px;
  padding: 100px;
 }
+.spending-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.helping{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  line-height: 1.5;
+}
+.num-section{
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+}
+.local-section{
+  background-color: #f4f5f7;
+}
+.design-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  }
+  .customer-section img{
+display: flex;
+    border-radius: 8px;
+  flex-direction: row;
+  justify-content: space-around;
+
+  }
